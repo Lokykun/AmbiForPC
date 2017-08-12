@@ -218,9 +218,11 @@ public class AmbiForPC {
 					System.out.println("Set Test False");
 					test = false;
 					tManager.clear();
+					tManager.frame.setVisible(false);
 				}else{
 					System.out.println("Set Test True");
 					test = true;
+					tManager.frame.setVisible(true);
 				}
 			}
 		});
